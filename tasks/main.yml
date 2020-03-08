@@ -1,0 +1,16 @@
+---
+- name: Install Apache web server
+  package:
+    name: apache2
+    state: present
+
+- name: Enable and start Apache
+  service:
+    name: apache2
+    enabled: yes
+    state: started
+
+- name: Install web files
+  copy:
+    source: ./files/index.html
+    destination: /var/www/html/index.html
