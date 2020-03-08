@@ -12,5 +12,8 @@
 
 - name: Install web files
   copy:
-    source: ./files/index.html
-    destination: /var/www/html/index.html
+    src: ./files/index.html
+    dest: /var/www/html/index.html
+    mode: '644'
+    owner: 'apache2'
+    group: 'apache2'
