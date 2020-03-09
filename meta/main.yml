@@ -8,9 +8,8 @@ galaxy_info:
    - name: Ubuntu
      versions:
      - bionic
-  galaxy_tags: 
+  galaxy_tags:
     - apache
     - httpd
     - http
-    - web_server
 dependencies: []
