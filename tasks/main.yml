@@ -10,10 +10,10 @@
     enabled: yes
     state: started
 
-#- name: Install web files
-#  copy:
-#    src: ./files/index.html
-#    dest: /var/www/html/index.html
-#    mode: '644'
-#    owner: 'apache2'
-#    group: 'apache2'
+- name: Install web files
+  copy:
+    src: ./files/index.html
+    dest: /var/www/html/index.html
+    mode: '644'
+    owner: 'root'
+    group: 'root'
