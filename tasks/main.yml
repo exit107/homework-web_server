@@ -1,8 +1,9 @@
 ---
 - name: Install Apache web server
-  package:
+  apt:
     name: apache2
     state: present
+    update_cache: true
 
 - name: Enable and start Apache
   service:
