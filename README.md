@@ -1,4 +1,4 @@
-![Molecule Test](https://github.com/exit107/homework-web_server/workflows/Molecule%20Test/badge.svg)
+![Molecule](https://github.com/exit107/homework-web_server/workflows/Molecule/badge.svg)
 
 homework-web_server
 =========
