@@ -1,8 +1,9 @@
+![Molecule Test](https://github.com/exit107/homework-web_server/workflows/Molecule%20Test/badge.svg)
+
 homework-web_server
 =========
 
 This role installs Apache and also copies in a replacement index.html.
-![Molecule Test](https://github.com/exit107/homework-web_server/workflows/Molecule%20Test/badge.svg)
 
 Requirements
 ------------
